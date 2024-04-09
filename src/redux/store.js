@@ -46,3 +46,4 @@ switch (action.type) {
   const store = createStore(rootReducer);
   
   export default store;
+  export { rootReducer };
